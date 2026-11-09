@@ -1,0 +1,26 @@
+{
+  "name": "nest-backend-academy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aprende NestJS, APIs y reglas de negocio de forma divertida. Construido por Karen Rojas.",
+  "author": "Karen Rojas (https://github.com/karendayanarb)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "cross-env STATIC_EXPORT=1 next build"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.7.0"
+  }
+}
